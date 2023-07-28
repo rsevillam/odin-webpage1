@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 64px;
     background-color: #1f2937;
 }
 
@@ -72,5 +73,47 @@ a {
     border: 1px dashed sandybrown;
     height: 100%;
     width: 100%;
+    text-align: center;
+}
+
+/* Mid Section declarations*/
+
+.mid-section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid green;
+    margin-bottom: 32px;
+}
+
+.mid-title {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.mid-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.mid-images {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    height: 200px;
+
+}
+
+.mid-images img {
+    border: 3px solid #3882f6;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.mid-text {
+    font-size: 18px;
     text-align: center;
 }
